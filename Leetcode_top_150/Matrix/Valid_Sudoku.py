@@ -122,5 +122,3 @@ class BitmaskSolution:
                 boxes[box_idx] |= mask
 
         return True
-
-print(BitmaskSolution().isValidSudoku(board))
