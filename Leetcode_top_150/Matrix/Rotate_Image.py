@@ -84,34 +84,3 @@ class LayerRotationSolution:
             left += 1
             right -= 1
 
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-matrix = [
- [1,2,3],
- [4,5,6],
- [7,8,9]
-]
-
-ExtraMatrixSolution().rotate(matrix)
-print(matrix)
-
-matrix = [
- [1,2,3],
- [4,5,6],
- [7,8,9]
-]
-
-OptimalSolution().rotate(matrix)
-print(matrix)
-
-matrix = [
- [1,2,3],
- [4,5,6],
- [7,8,9]
-]
-
-LayerRotationSolution().rotate(matrix)
-print(matrix)
