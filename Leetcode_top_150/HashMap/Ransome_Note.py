@@ -78,16 +78,3 @@ class ArraySolution:
             count[idx] -= 1
 
         return True
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-ransomNote = "aa"
-magazine = "aab"
-
-print(BruteForceSolution().canConstruct(ransomNote, magazine))
-print(HashMapSolution().canConstruct(ransomNote, magazine))
-print(CounterSolution().canConstruct(ransomNote, magazine))
-print(ArraySolution().canConstruct(ransomNote, magazine))
