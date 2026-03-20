@@ -103,16 +103,3 @@ class PythonicSolution:
         words = s.split()
 
         return list(map(pattern.index, pattern)) == list(map(words.index, words))
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-pattern = "abba"
-s = "dog cat cat dog"
-
-print(BruteForceSolution().wordPattern(pattern, s))
-print(HashMapSetSolution().wordPattern(pattern, s))
-print(TwoMapSolution().wordPattern(pattern, s))
-print(PythonicSolution().wordPattern(pattern, s))
