@@ -107,34 +107,3 @@ class OptimalSolution:
             for j in range(cols):
                 matrix[0][j] = 0
 
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-matrix = [
- [1,1,1],
- [1,0,1],
- [1,1,1]
-]
-
-BruteForceSolution().setZeroes(matrix)
-print(matrix)
-
-matrix = [
- [1,1,1],
- [1,0,1],
- [1,1,1]
-]
-
-BetterSolution().setZeroes(matrix)
-print(matrix)
-
-matrix = [
- [1,1,1],
- [1,0,1],
- [1,1,1]
-]
-
-OptimalSolution().setZeroes(matrix)
-print(matrix)
