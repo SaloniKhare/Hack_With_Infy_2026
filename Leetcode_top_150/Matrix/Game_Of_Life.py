@@ -98,27 +98,3 @@ class InPlaceSolution:
                 else:
                     board[i][j] = 0
 
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-board = [
- [0,1,0],
- [0,0,1],
- [1,1,1],
- [0,0,0]
-]
-
-BruteForceSolution().gameOfLife(board)
-print(board)
-
-board = [
- [0,1,0],
- [0,0,1],
- [1,1,1],
- [0,0,0]
-]
-
-InPlaceSolution().gameOfLife(board)
-print(board)
