@@ -74,14 +74,3 @@ class FloydCycleSolution:
             fast = get_next(get_next(fast))
 
         return fast == 1
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-n = 19
-
-print(BruteForceSolution().isHappy(n))
-print(HashSetSolution().isHappy(n))
-print(FloydCycleSolution().isHappy(n))
