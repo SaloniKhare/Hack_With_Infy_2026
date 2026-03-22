@@ -65,15 +65,3 @@ class SlidingWindowSolution:
                 window.remove(nums[i - k])
 
         return False
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-nums = [1,2,3,1]
-k = 3
-
-print(BruteForceSolution().containsNearbyDuplicate(nums, k))
-print(HashMapSolution().containsNearbyDuplicate(nums, k))
-print(SlidingWindowSolution().containsNearbyDuplicate(nums, k))
