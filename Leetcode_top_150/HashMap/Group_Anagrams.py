@@ -98,15 +98,3 @@ class CounterSolution:
             anagram_map[key].append(word)
 
         return list(anagram_map.values())
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-strs = ["eat","tea","tan","ate","nat","bat"]
-
-print(BruteForceSolution().groupAnagrams(strs))
-print(SortingSolution().groupAnagrams(strs))
-print(FrequencySolution().groupAnagrams(strs))
-print(CounterSolution().groupAnagrams(strs))
