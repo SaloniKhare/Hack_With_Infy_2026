@@ -99,14 +99,3 @@ class IterativeSolution:
             result.append(f"{start}->{prev}")
 
         return result
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-nums = [0,1,2,4,5,7]
-
-print(BruteForceSolution().summaryRanges(nums))
-print(TwoPointerSolution().summaryRanges(nums))
-print(IterativeSolution().summaryRanges(nums))
