@@ -157,18 +157,3 @@ class BinarySearchSolution:
                 result.append([start, end])
 
         return result
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-intervals = [[1,3],[6,9]]
-newInterval = [2,5]
-
-print("BruteForce:", BruteForceSolution().insert(intervals.copy(), newInterval.copy()))
-print("Optimal:", OptimalSolution().insert(intervals.copy(), newInterval.copy()))
-print("Stack:", StackSolution().insert(intervals.copy(), newInterval.copy()))
-print("InPlace:", InPlaceSolution().insert(intervals.copy(), newInterval.copy()))
-print("Pythonic:", PythonicSolution().insert(intervals.copy(), newInterval.copy()))
-print("BinarySearch:", BinarySearchSolution().insert(intervals.copy(), newInterval.copy()))
