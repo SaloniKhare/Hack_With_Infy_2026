@@ -159,17 +159,3 @@ class PythonicSolution:
                 end = e
 
         return arrows
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-points = [[10,16],[2,8],[1,6],[7,12]]
-
-print("BruteForce:", BruteForceSolution().findMinArrowShots(points.copy()))
-print("Optimal:", OptimalSolution().findMinArrowShots(points.copy()))
-print("StartBased:", StartBasedSolution().findMinArrowShots(points.copy()))
-print("MergeLike:", MergeLikeSolution().findMinArrowShots(points.copy()))
-print("Stack:", StackSolution().findMinArrowShots(points.copy()))
-print("Pythonic:", PythonicSolution().findMinArrowShots(points.copy()))
