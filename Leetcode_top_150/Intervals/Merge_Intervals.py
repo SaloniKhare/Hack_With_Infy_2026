@@ -143,17 +143,3 @@ class PythonicSolution:
                 result[-1][1] = max(result[-1][1], interval[1])
 
         return result
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-intervals = [[1,3],[2,6],[8,10],[15,18]]
-
-print("BruteForce:", BruteForceSolution().merge(intervals))
-print("Optimal:", OptimalSolution().merge(intervals))
-print("Stack:", StackSolution().merge(intervals))
-print("InPlace:", InPlaceSolution().merge(intervals))
-print("SeparateArray:", SeparateArraySolution().merge(intervals))
-print("Pythonic:", PythonicSolution().merge(intervals))
