@@ -124,15 +124,3 @@ class RecursiveSolution:
 
         return False
 
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-s = "()[]{}"
-
-print("BruteForce:", BruteForceSolution().isValid(s))
-print("Stack:", StackSolution().isValid(s))
-print("CleanStack:", CleanStackSolution().isValid(s))
-print("Pythonic:", PythonicSolution().isValid(s))
-print("Recursive:", RecursiveSolution().isValid(s))
