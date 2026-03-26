@@ -202,15 +202,3 @@ class PythonicSolution:
 
         return res + sign * num
 
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-s = "1 + (2 - (3 + 4))"
-
-print("Stack:", StackSolution().calculate(s))
-print("Recursive:", RecursiveSolution().calculate(s))
-print("Eval:", EvalSolution().calculate(s))
-print("TwoStack:", TwoStackSolution().calculate(s))
-print("Pythonic:", PythonicSolution().calculate(s))
