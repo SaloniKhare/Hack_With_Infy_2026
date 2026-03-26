@@ -162,21 +162,4 @@ class PythonicMinStack:
     def getMin(self):
         return self.min_stack[-1]
 
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-ms = TwoStackMinStack()
-
-ms.push(3)
-ms.push(5)
-print("Min:", ms.getMin())  # 3
-
-ms.push(2)
-ms.push(1)
-print("Min:", ms.getMin())  # 1
-
-ms.pop()
-print("Top:", ms.top())     # 2
 print("Min:", ms.getMin())  # 2
