@@ -130,16 +130,3 @@ class PythonicSolution:
                 stack.append(part)
 
         return "/" + "/".join(stack)
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-path = "/a/./b/../../c/"
-
-print("BruteForce:", BruteForceSolution().simplifyPath(path))
-print("Stack:", StackSolution().simplifyPath(path))
-print("Deque:", DequeSolution().simplifyPath(path))
-print("InPlace:", InPlaceSolution().simplifyPath(path))
-print("Pythonic:", PythonicSolution().simplifyPath(path))
