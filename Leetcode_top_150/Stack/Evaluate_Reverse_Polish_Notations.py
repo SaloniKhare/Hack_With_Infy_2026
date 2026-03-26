@@ -149,16 +149,3 @@ class PythonicSolution:
                     stack.append(int(a / b))
 
         return stack[0]
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-tokens = ["2","1","+","3","*"]
-
-print("Stack:", StackSolution().evalRPN(tokens.copy()))
-print("Dict:", DictSolution().evalRPN(tokens.copy()))
-print("Eval:", EvalSolution().evalRPN(tokens.copy()))
-print("Recursive:", RecursiveSolution().evalRPN(tokens.copy()))
-print("Pythonic:", PythonicSolution().evalRPN(tokens.copy()))
