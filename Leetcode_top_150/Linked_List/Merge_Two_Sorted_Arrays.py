@@ -154,22 +154,3 @@ class InPlaceSolution:
 
         return head
 
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-# l1 = 1 -> 2 -> 4
-# l2 = 1 -> 3 -> 4
-
-l1 = ListNode(1, ListNode(2, ListNode(4)))
-l2 = ListNode(1, ListNode(3, ListNode(4)))
-
-def print_list(node):
-    while node:
-        print(node.val, end=" -> ")
-        node = node.next
-    print("None")
-
-res = OptimalSolution().mergeTwoLists(l1, l2)
-print_list(res)
