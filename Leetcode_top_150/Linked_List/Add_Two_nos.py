@@ -184,23 +184,3 @@ class InPlaceSolution:
             prev.next = ListNode(carry)
 
         return head
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-# l1 = 2 -> 4 -> 3
-# l2 = 5 -> 6 -> 4
-
-l1 = ListNode(2, ListNode(4, ListNode(3)))
-l2 = ListNode(5, ListNode(6, ListNode(4)))
-
-def print_list(node):
-    while node:
-        print(node.val, end=" -> ")
-        node = node.next
-    print("None")
-
-res = OptimalSolution().addTwoNumbers(l1, l2)
-print_list(res)
