@@ -175,25 +175,3 @@ class DefaultDictSolution:
 
         return old_to_new[head]
 
-
-# ------------------------------------------------------
-# Example (Simple)
-# ------------------------------------------------------
-
-# Creating small list:
-# 1 -> 2
-# random pointers:
-# 1.random = 2
-# 2.random = 1
-
-n1 = Node(1)
-n2 = Node(2)
-
-n1.next = n2
-n1.random = n2
-n2.random = n1
-
-copied = OptimalSolution().copyRandomList(n1)
-
-print("Original:", n1.val, "->", n1.next.val)
-print("Copied:", copied.val, "->", copied.next.val)
