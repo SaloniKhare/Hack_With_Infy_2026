@@ -160,24 +160,5 @@ class StackSolution:
         return dummy.next
 
 
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-# 1 -> 2 -> 3 -> 4 -> 5
-# Reverse from position 2 to 4
-
-head = ListNode(1,
-        ListNode(2,
-        ListNode(3,
-        ListNode(4,
-        ListNode(5)))))
-
-def print_list(node):
-    while node:
-        print(node.val, end=" -> ")
-        node = node.next
-    print("None")
-
 res = OptimalSolution().reverseBetween(head, 2, 4)
 print_list(res)
