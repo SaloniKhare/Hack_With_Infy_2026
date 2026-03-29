@@ -181,26 +181,3 @@ class HeadInsertionSolution:
                 prev.next = temp
 
             prev = curr
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-# 1 -> 2 -> 3 -> 4 -> 5
-# k = 2 → 2 -> 1 -> 4 -> 3 -> 5
-
-head = ListNode(1,
-        ListNode(2,
-        ListNode(3,
-        ListNode(4,
-        ListNode(5)))))
-
-def print_list(node):
-    while node:
-        print(node.val, end=" -> ")
-        node = node.next
-    print("None")
-
-res = OptimalSolution().reverseKGroup(head, 2)
-print_list(res)
