@@ -125,23 +125,3 @@ class ArraySolution:
         return dummy.next
 
 
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-# 1 -> 1 -> 2 -> 3 -> 3
-
-head = ListNode(1,
-        ListNode(1,
-        ListNode(2,
-        ListNode(3,
-        ListNode(3)))))
-
-def print_list(node):
-    while node:
-        print(node.val, end=" -> ")
-        node = node.next
-    print("None")
-
-res = OptimalSolution().deleteDuplicates(head)
-print_list(res)
