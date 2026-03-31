@@ -180,27 +180,3 @@ class CleanSolution:
         b.next = after.next
 
         return before.next
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-# 1 -> 4 -> 3 -> 2 -> 5 -> 2, x = 3
-# Output: 1 -> 2 -> 2 -> 4 -> 3 -> 5
-
-head = ListNode(1,
-        ListNode(4,
-        ListNode(3,
-        ListNode(2,
-        ListNode(5,
-        ListNode(2))))))
-
-def print_list(node):
-    while node:
-        print(node.val, end=" -> ")
-        node = node.next
-    print("None")
-
-res = OptimalSolution().partition(head, 3)
-print_list(res)
