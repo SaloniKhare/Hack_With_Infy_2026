@@ -200,22 +200,3 @@ class SimpleLRU:
 
         self.cache[key] = value
         self.order.append(key)
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-lru = OptimalLRU(2)
-
-lru.put(1, 1)
-lru.put(2, 2)
-print(lru.get(1))  # 1
-
-lru.put(3, 3)      # evicts key 2
-print(lru.get(2))  # -1
-
-lru.put(4, 4)      # evicts key 1
-print(lru.get(1))  # -1
-print(lru.get(3))  # 3
-print(lru.get(4))  # 4
