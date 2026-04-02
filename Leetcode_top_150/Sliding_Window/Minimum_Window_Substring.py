@@ -210,17 +210,3 @@ class PythonicSolution:
                 left += 1
 
         return s[start:end]
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-s = "ADOBECODEBANC"
-t = "ABC"
-
-print("BruteForce:", BruteForceSolution().minWindow(s, t))
-print("Optimal:", OptimalSolution().minWindow(s, t))
-print("DefaultDict:", DefaultDictSolution().minWindow(s, t))
-print("Array:", ArraySolution().minWindow(s, t))
-print("Pythonic:", PythonicSolution().minWindow(s, t))
