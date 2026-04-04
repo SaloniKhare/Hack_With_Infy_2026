@@ -127,24 +127,3 @@ class BFSDepthSolution:
                 queue.append((node.right, depth + 1))
 
         return max_depth
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-#       3
-#      / \
-#     9  20
-#        / \
-#       15  7
-
-root = TreeNode(3)
-root.left = TreeNode(9)
-root.right = TreeNode(20, TreeNode(15), TreeNode(7))
-
-print("Recursive:", RecursiveSolution().maxDepth(root))
-print("DFS Stack:", DFSStackSolution().maxDepth(root))
-print("BFS:", BFSSolution().maxDepth(root))
-print("One-liner:", OneLinerSolution().maxDepth(root))
-print("BFS Depth:", BFSDepthSolution().maxDepth(root))
