@@ -144,33 +144,3 @@ class QueueSolution:
                 queue.append(node.right)
 
         return root
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-#       4
-#     /   \
-#    2     7
-#   / \   / \
-#  1   3 6   9
-
-root = TreeNode(4,
-        TreeNode(2, TreeNode(1), TreeNode(3)),
-        TreeNode(7, TreeNode(6), TreeNode(9)))
-
-def preorder(node):
-    if not node:
-        return
-    print(node.val, end=" ")
-    preorder(node.left)
-    preorder(node.right)
-
-print("Before:")
-preorder(root)
-
-RecursiveSolution().invertTree(root)
-
-print("\nAfter:")
-preorder(root)
