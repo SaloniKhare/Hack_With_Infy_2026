@@ -131,20 +131,3 @@ class PythonicSolution:
              self.isSameTree(p.left, q.left) and
              self.isSameTree(p.right, q.right))
         )
-
-
-# ------------------------------------------------------
-# Example
-# ------------------------------------------------------
-
-# Tree 1
-p = TreeNode(1, TreeNode(2), TreeNode(3))
-
-# Tree 2
-q = TreeNode(1, TreeNode(2), TreeNode(3))
-
-print("Recursive:", RecursiveSolution().isSameTree(p, q))
-print("BFS:", BFSSolution().isSameTree(p, q))
-print("DFS Stack:", DFSStackSolution().isSameTree(p, q))
-print("List:", ListSolution().isSameTree(p, q))
-print("Pythonic:", PythonicSolution().isSameTree(p, q))
