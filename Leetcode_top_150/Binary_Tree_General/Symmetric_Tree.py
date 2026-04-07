@@ -131,5 +131,3 @@ class OptimalSolution:
                    check(left.right, right.left)
 
         return check(root, root)
-
-
