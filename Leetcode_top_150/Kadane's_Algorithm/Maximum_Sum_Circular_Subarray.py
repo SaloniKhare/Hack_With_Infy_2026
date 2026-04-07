@@ -101,5 +101,3 @@ class OptimalSolution:
 
         # Circular max = total_sum - min_subarray
         return max(max_sum, total_sum - min_sum)
-
-
