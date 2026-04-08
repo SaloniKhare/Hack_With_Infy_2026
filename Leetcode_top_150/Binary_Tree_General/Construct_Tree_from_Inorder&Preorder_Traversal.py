@@ -153,5 +153,3 @@ class OptimalSolution:
             return root
 
         return build(0, len(inorder) - 1)
-
-
