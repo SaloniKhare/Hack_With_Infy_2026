@@ -136,6 +136,3 @@ class OptimalSolution:
             return dfs(node.left, current) + dfs(node.right, current)
 
         return dfs(root, 0)
-
-
-
