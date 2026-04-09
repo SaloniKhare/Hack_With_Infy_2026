@@ -8,7 +8,6 @@
 # An island is surrounded by water and is formed by
 # connecting adjacent lands horizontally or vertically.
 
-
 # ------------------------------------------------------
 # 1️⃣ Brute Force (Repeated Scan)
 # ------------------------------------------------------
