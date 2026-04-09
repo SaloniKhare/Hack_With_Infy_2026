@@ -133,6 +133,3 @@ class OptimalSolution:
 
         return (self.hasPathSum(root.left, targetSum) or
                 self.hasPathSum(root.right, targetSum))
-
-
-
