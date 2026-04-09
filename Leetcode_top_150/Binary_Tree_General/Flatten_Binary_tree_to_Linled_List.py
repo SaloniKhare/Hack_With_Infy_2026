@@ -137,6 +137,3 @@ class OptimalSolution:
                 curr.left = None
 
             curr = curr.right
-
-
-
