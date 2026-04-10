@@ -167,7 +167,3 @@ class OptimalSolution:
 
         dfs(root)
         return self.max_sum
-
-
-
-
