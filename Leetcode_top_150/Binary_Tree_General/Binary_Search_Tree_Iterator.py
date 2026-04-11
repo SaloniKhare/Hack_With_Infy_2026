@@ -145,7 +145,3 @@ class BSTIterator:
 
     def hasNext(self):
         return len(self.stack) > 0
-
-
-
-
