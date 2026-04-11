@@ -161,7 +161,3 @@ class OptimalSolution:
 
         # Otherwise return the non-null side
         return left if left else right
-
-
-
-
