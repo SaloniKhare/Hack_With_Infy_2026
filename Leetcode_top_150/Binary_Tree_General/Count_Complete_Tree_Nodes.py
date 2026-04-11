@@ -146,8 +146,3 @@ class OptimalSolution:
 
         # Otherwise recurse
         return 1 + self.countNodes(root.left) + self.countNodes(root.right)
-
-
-
-
-
