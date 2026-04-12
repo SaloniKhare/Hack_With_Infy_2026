@@ -159,7 +159,3 @@ class OptimalSolution:
             result.append(level)
 
         return result
-
-
-
-
