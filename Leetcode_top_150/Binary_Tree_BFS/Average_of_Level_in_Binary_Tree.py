@@ -164,8 +164,3 @@ class OptimalSolution:
             result.append(level_sum / size)
 
         return result
-
-
-
-
-
