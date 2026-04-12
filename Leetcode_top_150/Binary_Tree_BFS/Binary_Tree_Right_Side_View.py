@@ -147,7 +147,3 @@ class OptimalSolution:
 
         dfs(root, 0)
         return result
-
-
-
-
