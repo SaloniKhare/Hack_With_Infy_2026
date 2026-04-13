@@ -181,8 +181,3 @@ class OptimalSolution:
             left_to_right = not left_to_right
 
         return result
-
-
-
-
-
