@@ -126,8 +126,3 @@ class OptimalSolution:
                 return curr.val
 
             curr = curr.right
-
-
-
-
-
