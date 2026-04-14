@@ -137,9 +137,3 @@ class OptimalSolution:
             return clone
 
         return dfs(node)
-
-
-
-
-
-
