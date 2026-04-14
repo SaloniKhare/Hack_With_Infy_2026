@@ -245,7 +245,3 @@ class OptimalSolution:
                     board[i][j] = 'X'
                 elif board[i][j] == '#':
                     board[i][j] = 'O'
-
-
-
-
