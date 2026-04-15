@@ -225,8 +225,3 @@ class OptimalSolution:
                 result.append(weight[a] / weight[b])
 
         return result
-
-
-
-
-
