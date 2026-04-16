@@ -180,9 +180,3 @@ class OptimalSolution:
                     queue.append(nei)
 
         return completed == numCourses
-
-
-
-
-
-
